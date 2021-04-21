@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\cube">
+      <UniqueIdentifier>{19edba14-7fd1-4cae-ab9f-c17b68adc1c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\light">
+      <UniqueIdentifier>{3f5e9a09-8404-40da-b792-525fbe07ccab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\bio">
+      <UniqueIdentifier>{603d9c41-73aa-43cd-ab3d-91a8f4b4022e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\cube">
+      <UniqueIdentifier>{e94541e3-e5d9-47f3-8497-1b18da56ab20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\bio">
+      <UniqueIdentifier>{97997035-2e51-42ac-9a92-a985da32e49d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\light">
+      <UniqueIdentifier>{dfde558f-040a-4531-8913-b28fec4d3271}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\physics">
+      <UniqueIdentifier>{4f64ed4f-f669-4de5-92a9-1a87dfa5fd1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\physics">
+      <UniqueIdentifier>{5f5290e3-ffca-4c70-b6b6-d5662fd7b28c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\map">
+      <UniqueIdentifier>{8aba5b2f-eecb-492f-b33f-f2e1ff061344}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\map">
+      <UniqueIdentifier>{7254bb3b-5b5c-4413-92e9-f6b3eb4b049d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\camera">
+      <UniqueIdentifier>{e8242a51-97e2-4893-87b7-b6065503c499}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Label.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Point.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LightMaterial.h">
+      <Filter>头文件\light</Filter>
+    </ClInclude>
+    <ClInclude Include="Cube.h">
+      <Filter>头文件\cube</Filter>
+    </ClInclude>
+    <ClInclude Include="CubeManager.h">
+      <Filter>头文件\cube</Filter>
+    </ClInclude>
+    <ClInclude Include="TexCube.h">
+      <Filter>头文件\cube</Filter>
+    </ClInclude>
+    <ClInclude Include="Crawler.h">
+      <Filter>头文件\bio</Filter>
+    </ClInclude>
+    <ClInclude Include="Man.h">
+      <Filter>头文件\bio</Filter>
+    </ClInclude>
+    <ClInclude Include="coll_dete.h">
+      <Filter>头文件\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Chunk.h">
+      <Filter>头文件\map</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>头文件\camera</Filter>
+    </ClInclude>
+    <ClInclude Include="visualBall.h">
+      <Filter>头文件\camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Skybox.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>头文件\cube</Filter>
+    </ClInclude>
+    <ClInclude Include="AABB.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Motion.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="snapScreen.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="mian.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="visualBall.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Crawler.cpp">
+      <Filter>源文件\bio</Filter>
+    </ClCompile>
+    <ClCompile Include="Cube.cpp">
+      <Filter>源文件\cube</Filter>
+    </ClCompile>
+    <ClCompile Include="CubeManager.cpp">
+      <Filter>源文件\cube</Filter>
+    </ClCompile>
+    <ClCompile Include="LightMaterial.cpp">
+      <Filter>源文件\light</Filter>
+    </ClCompile>
+    <ClCompile Include="TexCube.cpp">
+      <Filter>源文件\cube</Filter>
+    </ClCompile>
+    <ClCompile Include="coll_dete.cpp">
+      <Filter>源文件\physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Man.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Chunk.cpp">
+      <Filter>源文件\map</Filter>
+    </ClCompile>
+    <ClCompile Include="Skybox.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AABB.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Motion.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>源文件\cube</Filter>
+    </ClCompile>
+    <ClCompile Include="snapScreen.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>
